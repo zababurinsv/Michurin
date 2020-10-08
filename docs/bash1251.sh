@@ -1,6 +1,6 @@
 #!/bin/bash
 
-f=`find . -name \*.html `
+f=`find . -name \*.html -or -name \*.htm`
 
 for file in $f
 
