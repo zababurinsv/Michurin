@@ -6,7 +6,7 @@ for file in $f
 
 do
 
-iconv -f WINDOWS-1251 -t UTF8 $file -o tmpfile && mv tmpfile $file
+iconv -f cp1251 -t UTF8 $file -o tmpfile && mv tmpfile $file
 
 done
 
